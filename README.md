@@ -21,7 +21,7 @@ Each project is designed to strengthen my understanding of:
 🧩 Reusable Components
 🔧 Git & GitHub Workflow
 
-Skills Practiced
+✨ Skills Practiced
 
 Through these projects, I am continuously improving my skills in:
 
