@@ -1,16 +1,18 @@
 import React from 'react'
-import Header from '../Other/Header.jsx'
-import CreateTask from '../Other/CreateTask.jsx'
-import AllTask from '../Other/AllTask.jsx'
+import Header from '../Other/Header'
+import TaskListNumbers from '../Other/TaskListNumbers'
+import TaskList from '../TaskList/TaskList'
 
-const AdminDashboard = (props) => {
-    return (
-        <div className='h-screen w-full p-7'>
-            <Header changeUser={props.changeUser} />
-            <CreateTask />
-            <AllTask />
-        </div>
-    )
+const EmployeeDashboard = (props) => {
+
+  return (
+    <div className='p-10 bg-[#1C1C1C] h-screen'>
+        
+        <Header changeUser={props.changeUser} data={props.data}/>
+        <TaskListNumbers data={props.data} />
+        <TaskList data={props.data} />
+    </div>
+  )
 }
 
-export default AdminDashboard
+export default EmployeeDashboard

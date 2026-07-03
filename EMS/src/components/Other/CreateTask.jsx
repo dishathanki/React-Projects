@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { AuthContext } from '../../context/AuthProvider.jsx'
+import { AuthContext } from '../../context/AuthProvider'
 
 const CreateTask = () => {
 
